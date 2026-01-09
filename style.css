@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.card, .top-bar {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+button {
+    padding: 12px;
+    width: 100%;
+    background: #1e3c72;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.inactive {
+    color: red;
+    font-weight: bold;
+}
+
+.active {
+    color: green;
+    font-weight: bold;
+}
+
+/* CENTER GRID */
+.center-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.vital-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.current-box {
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* BIG GRAPH */
+.big-graph-card {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.big-graph-card canvas {
+    height: 300px !important;
+}
+
+/* SCORE CARD */
+.score-card {
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* COLORS */
+.green { background: #2ecc71; color: white; }
+.yellow { background: #f1c40f; }
+.red { background: #e74c3c; color: white; }
+
+/* BACK BUTTON */
+#backBtn {
+    width: auto;
+    padding: 6px 12px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #555;
+}
